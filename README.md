@@ -12,8 +12,6 @@ Dit project wordt ontwikkeld door de volgende studenten. Ieder lid kan deze tabe
 | Quinten van Nunen | quintenvannunen | Deelnemer |
 | Edric Yi Ling | LingLing404 | Deelneemer |
 | Hadeel Khalil | Upsting | Deelnemer |
-|  |  |  |
-|  |  |  |
 
 ## Technologieen
 
