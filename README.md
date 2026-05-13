@@ -1,6 +1,6 @@
 # Integratieproject 2: GPS Tracker
 
-Het doel is het bouwen van een Proof of Concept (PoC) voor een slimme GPS-tracker. Dankzij geintegreerde sensoren en een GPS-module kunnen jongeren variabelen zoals locatie, snelheid, tijd en afstand meten, data loggen en bewegingen wetenschappelijk analyseren.
+Het doel is het bouwen van een slimme GPS-tracker. Dankzij geintegreerde sensoren en een GPS-module.
 
 ## Het Team
 
