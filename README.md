@@ -7,7 +7,8 @@ Het doel is het bouwen van een Proof of Concept (PoC) voor een slimme GPS-tracke
 Dit project wordt ontwikkeld door de volgende studenten. Ieder lid kan deze tabel zelf aanvullen met naam, GitHub-account en rol of focusgebied.
 
 | Naam | GitHub Account | Rol / Focusgebied |
-| :--- | :--- | :--- |
+| Lotfi Lamzira | Lotfi-lamzira | Deelnemer |
+| Quinten van Nunen | quintenvannunen | Deelnemer |
 |  |  |  |
 |  |  |  |
 |Hadeel Khalil  |Upsting  |Deelnemer  |
