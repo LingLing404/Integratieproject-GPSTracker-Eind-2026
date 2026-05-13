@@ -8,7 +8,7 @@ Dit project wordt ontwikkeld door de volgende studenten. Ieder lid kan deze tabe
 
 | Naam | GitHub Account | Rol / Focusgebied |
 | Lotfi Lamzira | Lotfi-lamzira | Deelnemer |
-|  |  |  |
+| Quinten van Nunen | quintenvannunen | Deelnemer |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -36,4 +36,3 @@ In de **Commit History** is de individuele bijdrage van elk teamlid te vinden. W
 
 *Locatie: KdG Hoboken - IoT Lab*
 
-Quinten van Nunen | Pull request
