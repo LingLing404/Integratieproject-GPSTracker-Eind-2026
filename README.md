@@ -35,3 +35,5 @@ In de **Commit History** is de individuele bijdrage van elk teamlid te vinden. W
 *Begeleidend docent: Thomas De Witte, Hans Van Gompel, Petia Minnebach, Vincent Peters en Liesje Tops*
 
 *Locatie: KdG Hoboken - IoT Lab*
+
+Quinten van Nunen | Pull request
