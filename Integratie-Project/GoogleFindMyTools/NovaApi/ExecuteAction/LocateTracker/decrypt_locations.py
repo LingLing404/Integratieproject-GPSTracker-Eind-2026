@@ -5,6 +5,7 @@
 
 import datetime
 import hashlib
+import ping_counter
 
 from FMDNCrypto.foreign_tracker_cryptor import decrypt
 from KeyBackup.cloud_key_decryptor import decrypt_eik, decrypt_aes_gcm
@@ -92,6 +93,9 @@ def decrypt_location_response_locations(device_update_protobuf, device_name="Unk
 
     location_time_array = []
     for loc, time in zip(network_locations, network_locations_time):
+
+        ping_counter.ping()
+        print(f"Ping: {ping_counter.get}")
 
         if loc.status == Common_pb2.Status.SEMANTIC:
             print("Semantic Location Report")

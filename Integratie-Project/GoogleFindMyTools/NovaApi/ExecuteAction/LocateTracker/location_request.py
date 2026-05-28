@@ -17,6 +17,7 @@ from ProtoDecoders.decoder import parse_device_update_protobuf
 from example_data_provider import get_example_data
 from influx_helper import send_location_to_influx
 
+
 def create_location_request(canonic_device_id, fcm_registration_id, request_uuid):
 
     action_request = create_action_request(canonic_device_id, fcm_registration_id, request_uuid=request_uuid)
