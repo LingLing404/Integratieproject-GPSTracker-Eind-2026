@@ -152,7 +152,7 @@ def decrypt_location_response_locations(device_update_protobuf, device_name="Unk
             
             # --- HIER IS DE INFLUXDB KOPPELING ---
             try:
-                send_location_to_influx(device_name, device_id, latitude, longitude)
+                send_location_to_influx(device_name, device_id, latitude, longitude, loc.time)
             except Exception as e:
                 print(f"[InfluxDB Error] Opslaan mislukt: {e}")
             # -------------------------------------
