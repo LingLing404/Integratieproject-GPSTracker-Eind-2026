@@ -2,3 +2,20 @@
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Local credentials, auth caches, and device data
+secrets.json
+device_index.json
+token_cache.json
+*.token
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Local Flask/runtime state
+instance/
+.flaskenv

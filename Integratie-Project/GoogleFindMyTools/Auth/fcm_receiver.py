@@ -1,10 +1,30 @@
 import asyncio
 import base64
 import binascii
+import os
 import threading
+from pathlib import Path
 
 from Auth.firebase_messaging import FcmRegisterConfig, FcmPushClient
 from Auth.token_cache import set_cached_value, get_cached_value
+
+
+def load_env_file():
+    env_path = Path(__file__).resolve().parents[1] / ".env"
+    if not env_path.exists():
+        return
+
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+load_env_file()
 
 class FcmReceiver:
 
@@ -26,8 +46,11 @@ class FcmReceiver:
         # Define Firebase project configuration
         project_id = "google.com:api-project-289722593072"
         app_id = "1:289722593072:android:3cfcf5bc359f0308"
-        api_key = "AIzaSyD_gko3P392v6how2H7UpdeXQ0v2HLettc"
+        api_key = os.environ.get("FMDN_FIREBASE_API_KEY")
         message_sender_id = "289722593072"
+
+        if not api_key:
+            raise RuntimeError("Missing required environment variable: FMDN_FIREBASE_API_KEY")
 
         # APK signing certificate SHA1
         android_cert_sha1 = "38918a453d07199354f8b19af05ec6562ced5788"
