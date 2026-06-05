@@ -1,7 +1,0 @@
-Integratie-Project/Website/.env
-.venv/
-
-# Local Flask/runtime state
-Integratie-Project/Website/__pycache__/
-Integratie-Project/Website/instance/
-Integratie-Project/Website/.flaskenv
